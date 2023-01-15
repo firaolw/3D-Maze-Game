@@ -66,7 +66,8 @@
         var ground = new THREE.Mesh(floorGeometry, new THREE.MeshPhongMaterial({
             map: loader.load("assets/images/textures/ground_diffuse.jpg"),
         }));
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6356511274599548"
+     crossorigin="anonymous"></script>
         repeatTexture(ground.material.map, 2);
 
         ground.position.set(-50, 1, -50);
